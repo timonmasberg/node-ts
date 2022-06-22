@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "krd-typescript-template",
   "version": "1.0.0",
   "description": "A node typescript project template for the Kordis landscape",
