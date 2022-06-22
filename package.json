@@ -5,7 +5,9 @@
   "description": "A node typescript project template for the Kordis landscape",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "start": "node ./dist/index.js",
+    "build:release": "tsc --build tsconfig.release.json",
     "prepare": "husky install"
   },
   "author": "",
@@ -18,6 +20,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.2",
     "prettier": "^2.7.1",
+    "tsc-watch": "^5.0.3",
     "typescript": "^4.7.4"
   },
   "lint-staged": {
