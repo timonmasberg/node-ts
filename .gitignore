@@ -10,7 +10,10 @@
 .DS_Store
 Thumbs.db
 
-dist/**/*
+dist
+build
+
+node_modules
 
 *.log
 
