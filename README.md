@@ -20,9 +20,9 @@ What is not included:
 
 # Setup
 
-Create a new gh repo from this template.
+Create a new GitHub repo from this template.
 
-Clone the project:
+Clone the project locally:
 
 ```bash
   git clone https://github.com/kordis-leitstelle/node-ts.git
@@ -49,13 +49,11 @@ Install dependencies:
 
 ## Run Locally
 
-Start the developing
+Start the developing script:
 
 ```bash
   npm run start:dev
 ```
-
-or run with Docker.
 
 ## Links
 
