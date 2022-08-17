@@ -6,16 +6,15 @@ This template gets you started with:
 - Linting (ESLint)
 - Code styling (Prettier)
 - Pre-commit hooks with Husky (lint-staged for ESLint & Prettier, conventional commits)
-- GitHub Actions (ESLint PR comments)
+- GitHub Actions (Linting, Testing, Codecov, Building)
 - Dockerfile
-
-Some configs are highly opinionated (such as renovate) and set for our organizational needs, you might want to go through them first.
+- Testing (Jest)
+  Some configs are highly opinionated (such as renovate) and set for our organizational needs, you might want to go through them first.
 
 What is not included:
 
 - Versioning
 - Releasing
-- Testing
 - Environment variables/configs
 
 # Setup
@@ -55,10 +54,20 @@ Start the developing script:
   npm run start:dev
 ```
 
+## Linting and testing
+
+Start the developing script:
+
+```bash
+  npm run lint
+  npm run lint:fix # if you want to apply the linting rules right away
+  npm run test
+```
+
 ## Links
 
 - https://www.conventionalcommits.org/en/v1.0.0/#summary
 - https://docs.renovatebot.com/configuration-options/
 - https://eslint.org/docs/user-guide/configuring/
 - https://prettier.io/docs/en/configuration.html
-- https://github.com/CatChen/eslint-suggestion-action
+- https://jestjs.io/docs/getting-started
