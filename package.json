@@ -16,8 +16,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "19.0.3",
-    "@commitlint/config-conventional": "19.0.3",
+    "@commitlint/cli": "19.2.0",
+    "@commitlint/config-conventional": "19.1.0",
     "@types/jest": "29.5.12",
     "@types/node": "20.10.2",
     "@typescript-eslint/eslint-plugin": "7.1.1",
