@@ -19,7 +19,7 @@
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
     "@types/jest": "30.0.0",
-    "@types/node": "20.19.43",
+    "@types/node": "24.19.2",
     "@typescript-eslint/eslint-plugin": "8.72.1",
     "@typescript-eslint/parser": "8.72.1",
     "eslint": "10.13.0",
